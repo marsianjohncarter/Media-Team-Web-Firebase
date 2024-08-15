@@ -15,6 +15,7 @@
     "@heroicons/react": "^2.1.1",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "firebase": "^10.12.5",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.4",
     "mongodb": "^6.7.0",

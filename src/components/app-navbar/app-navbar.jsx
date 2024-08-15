@@ -138,7 +138,14 @@ class AppBar extends Component {
                 </div>
               </div>
             </div>
-  
+            <Transition
+                      as={Fragment}
+                      enter="transition ease-out duration-100"
+                      enterFrom="transform opacity-0 scale-95"
+                      leave="transition ease-in duration-75"
+                      leaveFrom="transform opacity-100 scale-100"
+                      leaveTo="transform opacity-0 scale-95"
+                    > 
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pb-3 pt-2">
                 {navigation.map((item) => (
@@ -159,9 +166,11 @@ class AppBar extends Component {
                 ))}
               </div>
             </Disclosure.Panel>
+            </Transition>
           </>
         )}
       </Disclosure>
+
     );
   }
  
