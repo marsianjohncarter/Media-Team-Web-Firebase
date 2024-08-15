@@ -10,6 +10,8 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.0.0
       - uses: actions/checkout@v4
       - run: pnpm install --frozen-lockfile && pnpm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
