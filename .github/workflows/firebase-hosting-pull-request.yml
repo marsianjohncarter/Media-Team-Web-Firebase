@@ -17,7 +17,7 @@ jobs:
         with:
           version: '9.7.1'
       - uses: actions/checkout@v4
-      - run: pnpm install --frozen-lockfile && pnpm run build
+      - run: pnpm install --no-frozen-lockfile && pnpm run build
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
