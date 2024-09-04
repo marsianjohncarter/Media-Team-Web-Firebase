@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '24':
-        specifier: link:@heroicons/react/24
+        specifier: link:@heroicons\react\24
         version: link:@heroicons/react/24
       '@headlessui/react':
         specifier: ^1.7.18
@@ -42,7 +42,7 @@ importers:
         specifier: ^3.1.4
         version: 3.1.4
       outline:
-        specifier: link:@heroicons/react/24/outline
+        specifier: link:@heroicons\react\24\outline
         version: link:@heroicons/react/24/outline
       prop-types:
         specifier: ^15.8.1
@@ -64,7 +64,7 @@ importers:
         version: 6.1.8(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
     devDependencies:
       '@types/react':
-        specifier: ^18.2.56
+        specifier: ^18.2.57
         version: 18.2.57
       '@types/react-dom':
         specifier: ^18.2.19
@@ -944,8 +944,8 @@ packages:
   camelize@1.0.1:
     resolution: {integrity: sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==}
 
-  caniuse-lite@1.0.30001589:
-    resolution: {integrity: sha512-vNQWS6kI+q6sBlHbh71IIeC+sRwK2N3EDySc/updIGhIee2x5z00J4c1242/5/d6EpEMdOnk/m+6tuk4/tcsqg==}
+  caniuse-lite@1.0.30001655:
+    resolution: {integrity: sha512-jRGVy3iSGO5Uutn2owlb5gR6qsGngTw9ZTb4ali9f3glshcNmJ2noam4Mo9zia5P9Dk3jNNydy7vQjuE5dQmfg==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -3266,7 +3266,7 @@ snapshots:
   autoprefixer@10.4.17(postcss@8.4.35):
     dependencies:
       browserslist: 4.23.0
-      caniuse-lite: 1.0.30001589
+      caniuse-lite: 1.0.30001655
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -3313,7 +3313,7 @@ snapshots:
 
   browserslist@4.23.0:
     dependencies:
-      caniuse-lite: 1.0.30001589
+      caniuse-lite: 1.0.30001655
       electron-to-chromium: 1.4.679
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -3336,7 +3336,7 @@ snapshots:
 
   camelize@1.0.1: {}
 
-  caniuse-lite@1.0.30001589: {}
+  caniuse-lite@1.0.30001655: {}
 
   chalk@2.4.2:
     dependencies:

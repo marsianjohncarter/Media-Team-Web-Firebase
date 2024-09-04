@@ -52,10 +52,10 @@ function Contact() {
             </div>
           </div>
         ))}
-        {/* </div> */}
       </section>
     </>
   );
 }
 
 export default Contact;
+

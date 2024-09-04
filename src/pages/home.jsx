@@ -158,17 +158,6 @@ const Home = () => {
                                 <p className="mt-8">
                                     As you can see, we are loaded with work.
                                 </p>
-                                {/* <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                  No server? No problem.
-                </h2>
-                <p className="mt-6">
-                  Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                  consequat in. Convallis arcu ipsum urna nibh. Pharetra,
-                  euismod vitae interdum mauris enim, consequat vulputate nibh.
-                  Maecenas pellentesque id sed tellus mauris, ultrices mauris.
-                  Tincidunt enim cursus ridiculus mi. Pellentesque nam sed
-                  nullam sed diam turpis ipsum eu a sed convallis diam.
-                </p> */}
                             </div>
                         </div>
                     </div>
@@ -179,3 +168,4 @@ const Home = () => {
 };
 
 export default Home;
+
