@@ -8,7 +8,7 @@ A web application for the Media Team, built using React and React Router.
 
 * [Getting Started](#getting-started)
 * [Project Structure](#project-structure)
-(yes a bit breif!)
+
 
 ## Getting Started
 ---
